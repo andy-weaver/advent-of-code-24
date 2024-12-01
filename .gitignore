@@ -24,3 +24,8 @@ Cargo.lock
 # Do not synchronize the input files for the Advent of Code challenges
 input/
 *.input
+
+
+# Added by cargo
+
+/target

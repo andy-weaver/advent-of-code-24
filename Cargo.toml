@@ -1,0 +1,11 @@
+[package]
+edition="2021"
+name   ="aoc"
+version="0.1.0"
+
+[[bin]]
+name="historian-histeria"
+path="bin/day01/historian_histeria.rs"
+
+
+[dependencies]
