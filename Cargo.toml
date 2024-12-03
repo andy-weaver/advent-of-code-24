@@ -7,5 +7,9 @@ version="0.1.0"
 name="historian-histeria"
 path="bin/day01/historian_histeria.rs"
 
+[[bin]]
+name="red-nosed-reports"
+path="bin/day02/red_nosed_reports.rs"
+
 
 [dependencies]
