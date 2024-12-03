@@ -21,8 +21,8 @@ impl Parser {
     pub fn split_at(&self, delimiters: Vec<&str>) -> Vec<String> {
         let mut split = vec![self.raw.clone()];
         for delimiter in delimiters {
-                .iter()
             split = split
+                .iter()
                 .flat_map(|s| s.split(delimiter))
                 .map(|s| s.to_string())
                 .collect();
