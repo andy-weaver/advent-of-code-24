@@ -2,7 +2,7 @@ pub trait Parsable {
     fn parse(&self, delimiter: &str) -> Vec<Vec<&str>>;
 }
 
-#[derive(Debug, PartialEq)]
+#[derive(Debug, PartialEq, Clone)]
 pub struct Parser {
     pub raw: String,
 }
